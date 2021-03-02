@@ -11,22 +11,39 @@
     </div>
     <script>
 
-      document.getElementById("c").innerHTML = "Ciao stronzo";
-      var miaVar; //Variabile indefinita
-      var ciao;
+      document.getElementById("c").innerHTML = "Ciao stronzo"; //Cambiare il testo
 
-      var miaVar = 5; //Variabile numerica, non utilizzare apici
-      //miaVar = "Ciao"; //Variabile carattere tra apici
-      var miaVarBoolean = "false";
-      console.log(miaVar);
-      //alert("Errore");
-      var miaVar = 10;
-      var ciao = 20;
+      // Dichiarazione variabili
+      var miaVar = 10; // Variabile numerica
+      var miaVarString = "A";
+      var miaVarBoolean = true;
+      var miaVarObj = {}; // Variabile oggetto
+      var miaVarFun = function() {return "hello world"}; // Variabile funzione
+      var miaVarUnd = undefined; // Variabile indefinta
+      var miaVarNull = null; // Variabile nulla
 
-      var miaVarEmpty;
-      console.log("miaVarEmpty", typeof miaVarEmpty, miaVarEmpty); //Nome variabile, tipo di dato, contenuto
-      console.log("ciao", typeof ciao, ciao);
+      // Tipi di variabile
+      console.log("miaVar", typeof miaVar, miaVar);
+      console.log("miaVarString", typeof miaVarString, miaVarString);
       console.log("miaVarBoolean", typeof miaVarBoolean, miaVarBoolean);
+      console.log("miaVarObj", typeof miaVarObj, miaVarObj);
+      console.log("miaVarFun", typeof miaVarFun, miaVarFun);
+      console.log("miaVarUnd", typeof miaVarUnd, miaVarUnd);
+      console.log("miaVarNull", typeof miaVarNull, miaVarNull);
+
+      // Operatore di concatenzazione di stringhe è il +
+
+      // SOMMA
+      var x = 1;
+      var y = 2;
+
+      var sum = 1 + 2;
+      var sum2 = x + y;
+      var sum3 = sum2 + y;
+      console.log("sum", typeof sum, sum);
+      console.log("sum2", typeof sum2, sum2);
+      console.log("sum3", typeof sum3, sum3);
+
     </script>
   </body>
 </html>
